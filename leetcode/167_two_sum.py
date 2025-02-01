@@ -6,6 +6,9 @@ Return the indices of the two numbers, index1 and index2, added by one as an int
 The tests are generated such that there is exactly one solution. You may not use the same element twice.
 
 Your solution must use only constant extra space.
+
+T: O(N) N is the length of numbers
+S: O(1)
 """
 from typing import List
 

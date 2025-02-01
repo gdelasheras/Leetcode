@@ -2,8 +2,8 @@
 Given an integer array nums, return true if any value appears at least twice in the array, 
 and return false if every element is distinct.
 
-T: O(n) n = length of the array
-S: O(k) k = distinct numbers in the array
+T: O(N) N is the length of nums
+S: O(K) K is the number of unique elements in nums
 """
 from typing import List
 
