@@ -1,5 +1,12 @@
 from typing import Optional
 
+"""
+Given the head of a singly linked list, reverse the list, and return the reversed list.
+
+O(N) N is the number of nodes in the list.
+S(1) since we are not using any extra space.
+"""
+
 
 class ListNode:
     def __init__(self, val=0, next=None):
