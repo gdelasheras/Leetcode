@@ -1,5 +1,8 @@
 """
 Given the root of a binary tree, return the preorder traversal of its nodes' values.
+
+T: O(N) N is the length of numbers
+S: O(1) We return the list, so the list is needed but no extra space required.
 """
 from typing import List, Optional
 
