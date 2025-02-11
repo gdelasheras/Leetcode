@@ -12,6 +12,7 @@ Return the weight of the last remaining stone. If there are no stones left, retu
 
 T: O(n log n)
 S: O(n)
+    - n is the number of elements in stones.
 """
 from typing import List
 import heapq

@@ -4,9 +4,9 @@ It is guaranteed that the answer is unique.
 
 T: O(n + d log k)
 S: O(d + k) 
-    - n is the size of the list
-    - d is the number of distinct elements
-    - k is the parameter
+    - n is the size of the list.
+    - d is the number of distinct elements.
+    - k is the parameter.
 """
 
 from typing import List
