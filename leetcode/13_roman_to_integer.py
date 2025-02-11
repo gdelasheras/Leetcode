@@ -12,7 +12,7 @@ M             1000
 
 Given a valid roman numeral, convert it to an integer.
 
-T: O(N) N is the length of the string.
+T: O(n) n is the length of the string.
 S: O(1) since the extra space is limited to 7.
 """
 

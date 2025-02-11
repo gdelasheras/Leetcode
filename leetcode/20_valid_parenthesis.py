@@ -7,8 +7,8 @@ Open brackets must be closed by the same type of brackets.
 Open brackets must be closed in the correct order.
 Every close bracket has a corresponding open bracket of the same type.
 
-T: O(N) N is the length of s
-S: O(N) N is the length of s
+T: O(n) n is the length of s
+S: O(n) n is the length of s
 """
 
 

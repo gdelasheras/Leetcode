@@ -1,7 +1,7 @@
 """
 Given two strings s and t, return true if t is an  anagram of s, and false otherwise.
 
-T: O(N) N is the length of the strings
+T: O(n) n is the length of the strings
 S: O(1) since it is limited to 26 characters.
 """
 

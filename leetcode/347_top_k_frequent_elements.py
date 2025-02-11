@@ -2,8 +2,11 @@
 Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.
 It is guaranteed that the answer is unique.
 
-T: O(N log K) N is the length of nums, K is the param
-S: O(K)
+T: O(n + d log k)
+S: O(d + k) 
+    - n is the size of the list
+    - d is the number of distinct elements
+    - k is the parameter
 """
 
 from typing import List
@@ -13,14 +16,14 @@ import heapq
 
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        counter = Counter(nums)  # O(N)
+        counter = Counter(nums)  # O(n)
         heap = []
-        heapq.heapify(heap)
+        heapq.heapify(heap)  # O(1), empty
 
-        for key, val in counter.items():  # O(K)
-            heapq.heappush(heap, (val, key))
+        for key, val in counter.items():  # O(d)
+            heapq.heappush(heap, (val, key))  # O(log k)
             if len(heap) > k:
-                heapq.heappop(heap)
+                heapq.heappop(heap)  # O(log k)
 
         return [heapq.heappop(heap)[1] for _ in range(k)]
 

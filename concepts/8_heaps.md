@@ -89,7 +89,6 @@ Consider the following operations:
 | `heappop()`     |   $O(\log n)$   | Remove and return the smallest element               |
 | `heapify()`     |     $O(n)$      | Transform a list into a heap in-place                |
 | `heappushpop()` |   $O(\log n)$   | Push item on heap, then pop and return smallest item |
-| `heapreplace()` |   $O(\log n)$   | Pop and return smallest item, then push new item     |
 | `nlargest()`    |  $O(n \log k)$  | Return the k largest elements                        |
 | `nsmallest()`   |  $O(n \log k)$  | Return the k smallest elements                       |
 

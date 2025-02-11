@@ -2,7 +2,7 @@
 Given a string s, find the first non-repeating character in it and return its index. 
 If it does not exist, return -1.
 
-T: O(N) N is the length of the string.
+T: O(n) n is the length of the string.
 S: O(1) since it is limited to 26 characters.
 """
 from collections import Counter

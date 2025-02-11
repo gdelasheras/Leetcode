@@ -5,7 +5,7 @@ Alphanumeric characters include letters and numbers.
 
 Given a string s, return true if it is a palindrome, or false otherwise.
 
-T: O(N) N is the length of s
+T: O(n) n is the length of s
 S: O(1)
 """
 

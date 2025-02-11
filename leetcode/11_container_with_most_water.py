@@ -9,7 +9,7 @@ Return the maximum amount of water a container can store.
 
 Notice that you may not slant the container.
 
-T: O(N) N is the length of the array.
+T: O(n) n is the length of the array.
 S: O(1) since we are not using any extra space.
 """
 from typing import List

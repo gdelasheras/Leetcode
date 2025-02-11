@@ -7,7 +7,7 @@ The tests are generated such that there is exactly one solution. You may not use
 
 Your solution must use only constant extra space.
 
-T: O(N) N is the length of numbers
+T: O(n) n is the length of numbers
 S: O(1)
 """
 from typing import List
