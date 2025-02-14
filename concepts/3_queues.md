@@ -125,15 +125,14 @@ The time complexity of the operations on a queue implemented using a `deque` is 
 
 ### Example 1: Students and Lunch
 
-**Problem Statement:**
-
 You are given two arrays: `students` and `sandwiches`. Each element in the `students` array represents a student's preference (0 for a circular sandwich, 1 for a square sandwich). Each element in the `sandwiches` array represents the type of sandwich available in the stack (0 for circular, 1 for square). The sandwiches are stacked such that the first element is on the top of the stack.
 
 Students are in a queue, and they will take the sandwich on the top of the stack if it matches their preference. If not, they will move to the end of the queue. This process continues until no student wants the sandwich on the top of the stack.
 
 Return the number of students that are unable to eat.
 
-**Solution:**
+<details>
+<summary>Solution</summary>
 
 ```python
 from collections import deque
@@ -158,7 +157,10 @@ def count_students(students, sandwiches):
     return len(student_queue)
 ```
 
-**Test Cases:**
+</details>
+
+<details>
+<summary>Test Cases</summary>
 
 ```python
 def test_count_students():
@@ -174,7 +176,12 @@ def test_count_students():
 test_count_students()
 ```
 
-**Complexities:**
+</details>
+
+<details>
+<summary>Complexities</summary>
 
 - **Time Complexity**: $O(m \times n)$, where $m = \min(\text{len(students)}, \text{len(sandwiches)})$ and $n$ is the number of students. This accounts for the potential repeated cycling through the queue.
 - **Space Complexity**: $O(n)$, where $n$ is the length of the `students` array, due to the use of a deque to manage the student queue.
+
+</details>
