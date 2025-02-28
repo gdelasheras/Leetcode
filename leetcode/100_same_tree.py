@@ -3,7 +3,7 @@ Given the roots of two binary trees p and q, write a function to check if they a
 
 Two binary trees are considered the same if they are structurally identical, and the nodes have the same value.
 
-T: O(n1, n2)  Stops early when one tree is shorter.
+T: O(min(n1, n2))  Stops early when one tree is shorter.
 S: O(min(h1, h2)) stack calls
 
 Where:
