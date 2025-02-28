@@ -8,6 +8,16 @@ Return the head of the merged linked list.
 T: O(n + m) 
 S: O(1)
 
+
+Leetcode comment:
+
+Here is a Testcase in which your O (min(n,m)) will fail./
+Imagine n is the list with least elements, but the last element of n is greater than all elements of m.
+So , your l1 pointer will get stuck on last element of n, while your l2 pointer keeps on going to the next.
+Eventually, l2 will become null/none and then finally, your loop goes back to l1.
+
+So it has to be O(n+m)
+
 Where: 
     - n is the number of nodes in list 1
     - m is the number of nodes in list2
